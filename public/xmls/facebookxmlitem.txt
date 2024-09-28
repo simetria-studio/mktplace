@@ -1,0 +1,12 @@
+        <item>
+            <g:id>{{ID}}</g:id>
+            <g:title>{{TITLE}}</g:title>
+            <g:description>{{DESCRIPTION}}</g:description>
+            <g:link>{{LINK}}</g:link>
+            <g:image_link>{{IMAGE_LINK}}</g:image_link>
+            <g:brand>Biguaçu</g:brand>
+            <g:condition>new</g:condition>
+            <g:availability>{{AVAILABILITY}}</g:availability>
+            <g:price>{{PRICE}} BRL</g:price>
+            <g:google_product_category>{{GOOGLE_PRODUCT_CATEGORY}}</g:google_product_category>
+        </item>

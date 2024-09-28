@@ -1,0 +1,485 @@
+[2024-09-16 09:18:57] local.INFO: array (
+  'user' => '1---Eller Jones Silveira',
+  'info' => 'checkout-finalizar',
+  'request' => 
+  array (
+    '_token' => 'dHNamKyFl6itNBCHu94bC1VPH3Sn5qpdNsBBTpmc',
+    'payment_method' => 'boleto',
+    'card_holder_name' => NULL,
+    'card_number' => NULL,
+    'card_month' => '01',
+    'card_year' => '2024',
+    'card_cvv' => NULL,
+    'installments' => '1',
+    'name' => 'Eller Jones Silveira',
+    'email' => 'ellernetpar@gmail.com',
+    'cnpj_cpf' => '103.109.859-35',
+    'zip_code' => '83311-240',
+    'address_number' => NULL,
+    'phone' => NULL,
+  ),
+  'session_cart' => 
+  \Illuminate\Support\Collection::__set_state(array(
+     'items' => 
+    array (
+      0 => 
+      array (
+        'id' => 15,
+        'user_id' => '1',
+        'row_id' => '9df5b873-7832-4c9b-96c0-d72a1169e981',
+        'name' => 'Toalhas lavabo com bordados religiosos Espírito Santo',
+        'price' => '35',
+        'quantity' => '1',
+        'attributes' => 
+        array (
+          'product_id' => '3',
+          'affiliate_code' => NULL,
+          'var_id' => NULL,
+          'atributo_valor' => NULL,
+          'seller_id' => '1',
+          'product_image' => 'https://feitoporbiguacu.com/storage/produtos/TJSJoyEOCANVllUZH9K3eMphxLkNNueql3CUJRGOBuCVRyMBug/whatsapp-image-2024-07-08-at-16.jpg',
+          'seller_name' => 'Eller Jones SIlveira',
+          'product_weight' => '0.8',
+          'product_width' => '5',
+          'product_height' => '10',
+          'product_length' => '5',
+          'selected_attribute' => NULL,
+        ),
+        'active' => 'S',
+        'created_at' => '2024-09-11T08:34:07.000000Z',
+        'updated_at' => '2024-09-16T11:45:07.000000Z',
+      ),
+    ),
+     'escapeWhenCastingToString' => false,
+  )),
+  'session_modalidades' => 
+  array (
+    1 => 
+    array (
+      'tipo' => 'LocaisDeRetirada',
+      'frete' => 
+      array (
+        'id' => '1',
+        'seller_id' => '1',
+        'localidade_id' => '3',
+        'description' => 'ha',
+        'products_id' => NULL,
+        'all_products' => '1',
+        'created_at' => '2024-09-16T12:09:41.000000Z',
+        'updated_at' => '2024-09-16T12:09:41.000000Z',
+        'localidade' => 
+        array (
+          'id' => '3',
+          'title' => 'teste',
+          'description' => 'ttt',
+          'image' => NULL,
+          'zip_code' => '83324-360',
+          'address' => 'Rua Sertaneja',
+          'number' => '799',
+          'district' => 'Emiliano Perneta',
+          'city' => 'Pinhais',
+          'state' => 'PR',
+          'created_at' => '2024-09-16T11:55:36.000000Z',
+          'updated_at' => '2024-09-16T11:55:36.000000Z',
+        ),
+      ),
+    ),
+  ),
+  'session_address' => 
+  array (
+    'zip_code' => '83311-240',
+    'address' => 'Rua Tereza Moreira',
+    'complement' => 'casa',
+    'number' => '111',
+    'address2' => 'Jardim dos Eucaliptos',
+    'state' => 'PR',
+    'city' => 'Piraquara',
+  ),
+)  
+[2024-09-23 22:37:22] local.INFO: array (
+  'user' => '1---Eller Jones Silveira',
+  'info' => 'checkout-finalizar',
+  'request' => 
+  array (
+    '_token' => 'PcDxIDRm58u9mORD9z7HhZe005IqaWnYzki4FBtY',
+    'payment_method' => 'boleto',
+    'card_holder_name' => NULL,
+    'card_number' => NULL,
+    'card_month' => '01',
+    'card_year' => '2024',
+    'card_cvv' => NULL,
+    'installments' => '1',
+    'name' => 'Eller Jones Silveira',
+    'email' => 'ellernetpar@gmail.com',
+    'cnpj_cpf' => '103.109.859-35',
+    'zip_code' => '83311-240',
+    'address_number' => NULL,
+    'phone' => NULL,
+  ),
+  'session_cart' => 
+  \Illuminate\Support\Collection::__set_state(array(
+     'items' => 
+    array (
+      0 => 
+      array (
+        'id' => 15,
+        'user_id' => '1',
+        'row_id' => '9df5b873-7832-4c9b-96c0-d72a1169e981',
+        'name' => 'Toalhas lavabo com bordados religiosos Espírito Santo',
+        'price' => '35',
+        'quantity' => '1',
+        'attributes' => 
+        array (
+          'product_id' => '3',
+          'affiliate_code' => NULL,
+          'var_id' => NULL,
+          'atributo_valor' => NULL,
+          'seller_id' => '1',
+          'product_image' => 'https://feitoporbiguacu.com/storage/produtos/TJSJoyEOCANVllUZH9K3eMphxLkNNueql3CUJRGOBuCVRyMBug/whatsapp-image-2024-07-08-at-16.jpg',
+          'seller_name' => 'Eller Jones SIlveira',
+          'product_weight' => '0.8',
+          'product_width' => '5',
+          'product_height' => '10',
+          'product_length' => '5',
+          'selected_attribute' => NULL,
+        ),
+        'active' => 'S',
+        'created_at' => '2024-09-11T08:34:07.000000Z',
+        'updated_at' => '2024-09-16T11:45:07.000000Z',
+      ),
+    ),
+     'escapeWhenCastingToString' => false,
+  )),
+  'session_modalidades' => 
+  array (
+    1 => 
+    array (
+      'tipo' => 'Transportadora',
+      'frete' => 
+      array (
+        'id' => '4',
+        'name' => '.Com',
+        'price' => '14.88',
+        'custom_price' => '14.88',
+        'discount' => '0.00',
+        'currency' => 'R$',
+        'delivery_time' => '4',
+        'delivery_range' => 
+        array (
+          'min' => '3',
+          'max' => '4',
+        ),
+        'custom_delivery_time' => '4',
+        'custom_delivery_range' => 
+        array (
+          'min' => '3',
+          'max' => '4',
+        ),
+        'packages' => 
+        array (
+          0 => 
+          array (
+            'format' => 'box',
+            'weight' => '0.80',
+            'insurance_value' => '35.00',
+            'products' => 
+            array (
+              0 => 
+              array (
+                'id' => '3',
+                'quantity' => '1',
+              ),
+            ),
+            'dimensions' => 
+            array (
+              'height' => '5',
+              'width' => '5',
+              'length' => '10',
+            ),
+          ),
+        ),
+        'additional_services' => 
+        array (
+          'receipt' => 'false',
+          'own_hand' => 'false',
+          'collect' => 'false',
+        ),
+        'company' => 
+        array (
+          'id' => '2',
+          'name' => 'Jadlog',
+          'picture' => 'https://www.melhorenvio.com.br/images/shipping-companies/jadlog.png',
+        ),
+      ),
+    ),
+  ),
+  'session_address' => 
+  array (
+    'zip_code' => '83311-240',
+    'address' => 'Rua Tereza Moreira',
+    'complement' => 'casa',
+    'number' => '111',
+    'address2' => 'Jardim dos Eucaliptos',
+    'state' => 'PR',
+    'city' => 'Piraquara',
+    'phone2' => '(41) 99791-3238',
+  ),
+)  
+[2024-09-23 22:39:40] local.INFO: array (
+  'user' => '1---Eller Jones Silveira',
+  'info' => 'checkout-finalizar',
+  'request' => 
+  array (
+    '_token' => 'PcDxIDRm58u9mORD9z7HhZe005IqaWnYzki4FBtY',
+    'payment_method' => 'boleto',
+    'card_holder_name' => NULL,
+    'card_number' => NULL,
+    'card_month' => '01',
+    'card_year' => '2024',
+    'card_cvv' => NULL,
+    'installments' => '1',
+    'name' => 'Eller Jones Silveira',
+    'email' => 'ellernetpar@gmail.com',
+    'cnpj_cpf' => '103.109.859-35',
+    'zip_code' => '83311-240',
+    'address_number' => NULL,
+    'phone' => NULL,
+  ),
+  'session_cart' => 
+  \Illuminate\Support\Collection::__set_state(array(
+     'items' => 
+    array (
+      0 => 
+      array (
+        'id' => 15,
+        'user_id' => '1',
+        'row_id' => '9df5b873-7832-4c9b-96c0-d72a1169e981',
+        'name' => 'Toalhas lavabo com bordados religiosos Espírito Santo',
+        'price' => '35',
+        'quantity' => '1',
+        'attributes' => 
+        array (
+          'product_id' => '3',
+          'affiliate_code' => NULL,
+          'var_id' => NULL,
+          'atributo_valor' => NULL,
+          'seller_id' => '1',
+          'product_image' => 'https://feitoporbiguacu.com/storage/produtos/TJSJoyEOCANVllUZH9K3eMphxLkNNueql3CUJRGOBuCVRyMBug/whatsapp-image-2024-07-08-at-16.jpg',
+          'seller_name' => 'Eller Jones SIlveira',
+          'product_weight' => '0.8',
+          'product_width' => '5',
+          'product_height' => '10',
+          'product_length' => '5',
+          'selected_attribute' => NULL,
+        ),
+        'active' => 'S',
+        'created_at' => '2024-09-11T08:34:07.000000Z',
+        'updated_at' => '2024-09-16T11:45:07.000000Z',
+      ),
+    ),
+     'escapeWhenCastingToString' => false,
+  )),
+  'session_modalidades' => 
+  array (
+    1 => 
+    array (
+      'tipo' => 'Transportadora',
+      'frete' => 
+      array (
+        'id' => '4',
+        'name' => '.Com',
+        'price' => '14.88',
+        'custom_price' => '14.88',
+        'discount' => '0.00',
+        'currency' => 'R$',
+        'delivery_time' => '4',
+        'delivery_range' => 
+        array (
+          'min' => '3',
+          'max' => '4',
+        ),
+        'custom_delivery_time' => '4',
+        'custom_delivery_range' => 
+        array (
+          'min' => '3',
+          'max' => '4',
+        ),
+        'packages' => 
+        array (
+          0 => 
+          array (
+            'format' => 'box',
+            'weight' => '0.80',
+            'insurance_value' => '35.00',
+            'products' => 
+            array (
+              0 => 
+              array (
+                'id' => '3',
+                'quantity' => '1',
+              ),
+            ),
+            'dimensions' => 
+            array (
+              'height' => '5',
+              'width' => '5',
+              'length' => '10',
+            ),
+          ),
+        ),
+        'additional_services' => 
+        array (
+          'receipt' => 'false',
+          'own_hand' => 'false',
+          'collect' => 'false',
+        ),
+        'company' => 
+        array (
+          'id' => '2',
+          'name' => 'Jadlog',
+          'picture' => 'https://www.melhorenvio.com.br/images/shipping-companies/jadlog.png',
+        ),
+      ),
+    ),
+  ),
+  'session_address' => 
+  array (
+    'zip_code' => '83311-240',
+    'address' => 'Rua Tereza Moreira',
+    'complement' => 'casa',
+    'number' => '111',
+    'address2' => 'Jardim dos Eucaliptos',
+    'state' => 'PR',
+    'city' => 'Piraquara',
+    'phone2' => '(41) 99791-3238',
+  ),
+)  
+[2024-09-23 22:40:29] local.INFO: array (
+  'user' => '1---Eller Jones Silveira',
+  'info' => 'checkout-finalizar',
+  'request' => 
+  array (
+    '_token' => 'PcDxIDRm58u9mORD9z7HhZe005IqaWnYzki4FBtY',
+    'payment_method' => 'boleto',
+    'card_holder_name' => NULL,
+    'card_number' => NULL,
+    'card_month' => '01',
+    'card_year' => '2024',
+    'card_cvv' => NULL,
+    'installments' => '1',
+    'name' => 'Eller Jones Silveira',
+    'email' => 'ellernetpar@gmail.com',
+    'cnpj_cpf' => '103.109.859-35',
+    'zip_code' => '83311-240',
+    'address_number' => NULL,
+    'phone' => NULL,
+  ),
+  'session_cart' => 
+  \Illuminate\Support\Collection::__set_state(array(
+     'items' => 
+    array (
+      0 => 
+      array (
+        'id' => 15,
+        'user_id' => '1',
+        'row_id' => '9df5b873-7832-4c9b-96c0-d72a1169e981',
+        'name' => 'Toalhas lavabo com bordados religiosos Espírito Santo',
+        'price' => '35',
+        'quantity' => '1',
+        'attributes' => 
+        array (
+          'product_id' => '3',
+          'affiliate_code' => NULL,
+          'var_id' => NULL,
+          'atributo_valor' => NULL,
+          'seller_id' => '1',
+          'product_image' => 'https://feitoporbiguacu.com/storage/produtos/TJSJoyEOCANVllUZH9K3eMphxLkNNueql3CUJRGOBuCVRyMBug/whatsapp-image-2024-07-08-at-16.jpg',
+          'seller_name' => 'Eller Jones SIlveira',
+          'product_weight' => '0.8',
+          'product_width' => '5',
+          'product_height' => '10',
+          'product_length' => '5',
+          'selected_attribute' => NULL,
+        ),
+        'active' => 'S',
+        'created_at' => '2024-09-11T08:34:07.000000Z',
+        'updated_at' => '2024-09-16T11:45:07.000000Z',
+      ),
+    ),
+     'escapeWhenCastingToString' => false,
+  )),
+  'session_modalidades' => 
+  array (
+    1 => 
+    array (
+      'tipo' => 'Transportadora',
+      'frete' => 
+      array (
+        'id' => '4',
+        'name' => '.Com',
+        'price' => '14.88',
+        'custom_price' => '14.88',
+        'discount' => '0.00',
+        'currency' => 'R$',
+        'delivery_time' => '4',
+        'delivery_range' => 
+        array (
+          'min' => '3',
+          'max' => '4',
+        ),
+        'custom_delivery_time' => '4',
+        'custom_delivery_range' => 
+        array (
+          'min' => '3',
+          'max' => '4',
+        ),
+        'packages' => 
+        array (
+          0 => 
+          array (
+            'format' => 'box',
+            'weight' => '0.80',
+            'insurance_value' => '35.00',
+            'products' => 
+            array (
+              0 => 
+              array (
+                'id' => '3',
+                'quantity' => '1',
+              ),
+            ),
+            'dimensions' => 
+            array (
+              'height' => '5',
+              'width' => '5',
+              'length' => '10',
+            ),
+          ),
+        ),
+        'additional_services' => 
+        array (
+          'receipt' => 'false',
+          'own_hand' => 'false',
+          'collect' => 'false',
+        ),
+        'company' => 
+        array (
+          'id' => '2',
+          'name' => 'Jadlog',
+          'picture' => 'https://www.melhorenvio.com.br/images/shipping-companies/jadlog.png',
+        ),
+      ),
+    ),
+  ),
+  'session_address' => 
+  array (
+    'zip_code' => '83311-240',
+    'address' => 'Rua Tereza Moreira',
+    'complement' => 'casa',
+    'number' => '111',
+    'address2' => 'Jardim dos Eucaliptos',
+    'state' => 'PR',
+    'city' => 'Piraquara',
+    'phone2' => '(41) 99791-3238',
+  ),
+)  

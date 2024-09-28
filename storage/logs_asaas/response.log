@@ -1,0 +1,178 @@
+[2024-09-16 09:18:58] local.INFO: array (
+  'make_payment' => 
+  array (
+    'customer' => 'cus_000006051101',
+    'dueDate' => '2024-09-21',
+    'value' => '35.00',
+    'description' => 'Vendas realizada no site da biguaçu',
+    'externalReference' => '00000026',
+    'split' => 
+    array (
+      0 => 
+      array (
+        'walletId' => '7571fc8c-8585-4a6f-88f3-79a921c992b4',
+        'fixedValue' => 29.75,
+      ),
+    ),
+    'billingType' => 'BOLETO',
+  ),
+  'payment' => 
+  (object) array(
+     'object' => 'payment',
+     'id' => 'pay_sdh52ilttm4yuedg',
+     'dateCreated' => '2024-09-16',
+     'customer' => 'cus_000006051101',
+     'paymentLink' => NULL,
+     'value' => 35,
+     'netValue' => 33.01,
+     'originalValue' => NULL,
+     'interestValue' => NULL,
+     'description' => 'Vendas realizada no site da biguaçu',
+     'billingType' => 'BOLETO',
+     'canBePaidAfterDueDate' => true,
+     'pixTransaction' => NULL,
+     'status' => 'PENDING',
+     'dueDate' => '2024-09-21',
+     'originalDueDate' => '2024-09-21',
+     'paymentDate' => NULL,
+     'clientPaymentDate' => NULL,
+     'installmentNumber' => NULL,
+     'invoiceUrl' => 'https://sandbox.asaas.com/i/sdh52ilttm4yuedg',
+     'invoiceNumber' => '06492521',
+     'externalReference' => '00000026',
+     'deleted' => false,
+     'anticipated' => false,
+     'anticipable' => false,
+     'creditDate' => NULL,
+     'estimatedCreditDate' => NULL,
+     'transactionReceiptUrl' => NULL,
+     'nossoNumero' => '10202183',
+     'bankSlipUrl' => 'https://sandbox.asaas.com/b/pdf/sdh52ilttm4yuedg',
+     'lastInvoiceViewedDate' => NULL,
+     'lastBankSlipViewedDate' => NULL,
+     'discount' => 
+    (object) array(
+       'value' => 0.0,
+       'limitDate' => NULL,
+       'dueDateLimitDays' => 0,
+       'type' => 'FIXED',
+    ),
+     'fine' => 
+    (object) array(
+       'value' => 0.0,
+       'type' => 'FIXED',
+    ),
+     'interest' => 
+    (object) array(
+       'value' => 0.0,
+       'type' => 'PERCENTAGE',
+    ),
+     'split' => 
+    array (
+      0 => 
+      (object) array(
+         'id' => '064f82f5-6778-4f37-a3cf-7ff95e6e7a05',
+         'walletId' => '7571fc8c-8585-4a6f-88f3-79a921c992b4',
+         'fixedValue' => 29.75,
+         'percentualValue' => NULL,
+         'totalValue' => 29.75,
+         'cancellationReason' => NULL,
+         'status' => 'PENDING',
+         'externalReference' => NULL,
+         'description' => NULL,
+      ),
+    ),
+     'postalService' => false,
+     'custody' => NULL,
+     'refunds' => NULL,
+  ),
+)  
+[2024-09-23 22:40:31] local.INFO: array (
+  'make_payment' => 
+  array (
+    'customer' => 'cus_000006051101',
+    'dueDate' => '2024-09-28',
+    'value' => '48.39',
+    'description' => 'Vendas realizada no site da biguaçu',
+    'externalReference' => '00000029',
+    'split' => 
+    array (
+      0 => 
+      array (
+        'walletId' => '7571fc8c-8585-4a6f-88f3-79a921c992b4',
+        'fixedValue' => 43.14,
+      ),
+    ),
+    'billingType' => 'BOLETO',
+  ),
+  'payment' => 
+  (object) array(
+     'object' => 'payment',
+     'id' => 'pay_t6k01hy97gmxngip',
+     'dateCreated' => '2024-09-23',
+     'customer' => 'cus_000006051101',
+     'paymentLink' => NULL,
+     'value' => 48.39,
+     'netValue' => 46.4,
+     'originalValue' => NULL,
+     'interestValue' => NULL,
+     'description' => 'Vendas realizada no site da biguaçu',
+     'billingType' => 'BOLETO',
+     'canBePaidAfterDueDate' => true,
+     'pixTransaction' => NULL,
+     'status' => 'PENDING',
+     'dueDate' => '2024-09-28',
+     'originalDueDate' => '2024-09-28',
+     'paymentDate' => NULL,
+     'clientPaymentDate' => NULL,
+     'installmentNumber' => NULL,
+     'invoiceUrl' => 'https://sandbox.asaas.com/i/t6k01hy97gmxngip',
+     'invoiceNumber' => '06545636',
+     'externalReference' => '00000029',
+     'deleted' => false,
+     'anticipated' => false,
+     'anticipable' => false,
+     'creditDate' => NULL,
+     'estimatedCreditDate' => NULL,
+     'transactionReceiptUrl' => NULL,
+     'nossoNumero' => '10219224',
+     'bankSlipUrl' => 'https://sandbox.asaas.com/b/pdf/t6k01hy97gmxngip',
+     'lastInvoiceViewedDate' => NULL,
+     'lastBankSlipViewedDate' => NULL,
+     'discount' => 
+    (object) array(
+       'value' => 0.0,
+       'limitDate' => NULL,
+       'dueDateLimitDays' => 0,
+       'type' => 'FIXED',
+    ),
+     'fine' => 
+    (object) array(
+       'value' => 0.0,
+       'type' => 'FIXED',
+    ),
+     'interest' => 
+    (object) array(
+       'value' => 0.0,
+       'type' => 'PERCENTAGE',
+    ),
+     'split' => 
+    array (
+      0 => 
+      (object) array(
+         'id' => '0087d79f-ea14-4488-983d-b2b87cb4bd84',
+         'walletId' => '7571fc8c-8585-4a6f-88f3-79a921c992b4',
+         'fixedValue' => 43.14,
+         'percentualValue' => NULL,
+         'totalValue' => 43.14,
+         'cancellationReason' => NULL,
+         'status' => 'PENDING',
+         'externalReference' => NULL,
+         'description' => NULL,
+      ),
+    ),
+     'postalService' => false,
+     'custody' => NULL,
+     'refunds' => NULL,
+  ),
+)  

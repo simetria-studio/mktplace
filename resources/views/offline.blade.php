@@ -1,0 +1,1 @@
+Sem conexão com internet!
