@@ -143,12 +143,12 @@
         <div class="container d-md-none">
             <div id="carrousel_evento_home" class="carousel slide" data-ride="carousel">
                 <div class="carousel-inner">
-                    @foreach ($events_home as $key => $item)
+                    {{-- @foreach ($events_home as $key => $item)
                         <div class="carousel-item @if($key == 0) active @endif text-center">
                             <a href="{{$item->link}}" @if($item->new_tab == 1)target="_blank"@endif><img src="{{$item->url_file}}" class="img-fluid" alt="{{$item->file_name}}" title="{{$item->file_name}}"></a>
                             <div class="text-center mt-3">{!!$item->descricao_curta!!}</div>
                         </div>
-                    @endforeach
+                    @endforeach --}}
                     {{-- @foreach (banner_configs('home-page-principal') as $key => $banner)
                         <div class="carousel-item @if($key == 0) active @endif">
                             <a href="{{$banner->link}}" @if($banner->new_tab == 1)target="_blank"@endif><img src="{{$banner->url_file}}" class="d-block w-100" alt="{{$banner->file_name}}" title="{{$banner->file_name}}"></a>

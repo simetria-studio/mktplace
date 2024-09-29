@@ -260,7 +260,7 @@
                 </div>
                 <div class="t2">
                     <a href="{{ asset('/') }}"><img class="logo"
-                            src="{{ asset('site/imgs/logo-transparente.png') }}" alt=""></a>
+                            src="{{ asset('site/imgs/logo.png') }}" alt=""></a>
                 </div>
 
                 <div class="t3 d-flex">
@@ -491,12 +491,12 @@
     <main class="container-fluid px-0">
         @if (!\Request::is('carrinho') && !\Request::is('login') && !\Request::is('vendedor/login'))
             <div class="mt-3 mb-2 d-flex d-md-none header-site">
-                <div class="col-6 px-1">
+                <div class="col-12 px-1">
                     <a href="{{ route('home') }}" class="btn btn btn-p-success btn-block">Produtos</a>
                 </div>
-                <div class="col-6 px-1">
+                {{-- <div class="col-6 px-1">
                     <a href="{{ route('rural_tourism') }}" class="btn btn-s-warning btn-block">Turismo</a>
-                </div>
+                </div> --}}
             </div>
         @endif
 
