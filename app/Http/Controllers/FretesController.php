@@ -84,7 +84,7 @@ class FretesController extends Controller
             $fretes_sellers_html[$seller_id] = view('components.freteCheckout', get_defined_vars())->render();
         }
 
-        return response()->json(['success' => true, 'html' => $fretes_sellers_html]);
+        return response()->json(['success' => true, 'cep_consulta' => $cep, 'html' => $fretes_sellers_html]);
     }
 
     public function conect_melhor_envio($token, $user_agent, $metodo, $endpoint, $dados)

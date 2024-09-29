@@ -124,7 +124,7 @@ class CheckoutController extends Controller
             $discount = $discount2;
         } else {
             // Exibe o valor de desconto fornecido diretamente
-            $discount = $coupon_calc['dp'];
+            $discount = $coupon_calc['dp'] ?? 0;
         }
 
         $total_checkout = collect($session_cart)->map(function($q){return $q['quantity']*$q['price'];})->sum()+$total_frete;
@@ -180,7 +180,7 @@ class CheckoutController extends Controller
             $discount = $discount2;
         } else {
             // Exibe o valor de desconto fornecido diretamente
-            $discount = $coupon_calc['dp'];
+            $discount = $coupon_calc['dp'] ?? 0;
         }
 
         \Log::channel('asaas_send')->info([
@@ -377,7 +377,7 @@ class CheckoutController extends Controller
                     $discount = $discount2;
                 } else {
                     // Exibe o valor de desconto fornecido diretamente
-                    $discount = $coupon_calc['dp'];
+                    $discount = $coupon_calc['dp'] ?? 0;
                 }
             }
 
