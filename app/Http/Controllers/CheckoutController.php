@@ -462,7 +462,7 @@ class CheckoutController extends Controller
         ]);
 
         foreach (Order::where('parent_id', $this->parent_id->id)->get() as $order) {
-            Mail::to(auth()->user()->email)->send(new Orders($order->order_number, 'comprador'));
+            // Mail::to(auth()->user()->email)->send(new Orders($order->order_number, 'comprador'));
             // Mail::to('comercial@raeasy.com')->send(new Orders($order->order_number, 'biguacu'));
         }
 
@@ -510,7 +510,7 @@ class CheckoutController extends Controller
             if($order){
                 Order::where('payment_id', $request_data['payment']['id'])->update(['pay' => 1]);
                 foreach(Order::where('payment_id', $request_data['payment']['id'])->whereNotNull('parent_id')->get() as $order){
-                    Mail::to($order->user_email)->send(new OrderPayment($order, 'paid', 'comprador'));
+                    // Mail::to($order->user_email)->send(new OrderPayment($order, 'paid', 'comprador'));
                     // Mail::to($order->seller->email)->send(new OrderPayment($order, 'paid', 'vendedor'));
                 }
             }
@@ -545,7 +545,7 @@ class CheckoutController extends Controller
                         }
                     }
 
-                    Mail::to($order->user_email)->send(new OrderPayment($order, 'canceled', 'comprador'));
+                    // Mail::to($order->user_email)->send(new OrderPayment($order, 'canceled', 'comprador'));
                     // Mail::to($order->seller->email)->send(new OrderPayment($order, 'canceled', 'vendedor'));
                 }
             }
