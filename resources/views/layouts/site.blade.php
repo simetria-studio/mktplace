@@ -524,22 +524,22 @@
                             <h5>MAPA DO SITE</h5>
 
                             <ul class="nav flex-column">
-                                <li class="nav-item"><a class="nav-link" href="{{ route('whoweare') }}">Quem
+                                {{-- <li class="nav-item"><a class="nav-link" href="{{ route('whoweare') }}">Quem
                                         Somos</a></li>
                                 <li class="nav-item"><a class="nav-link" href="{{ route('contactus') }}">Fale
-                                        Conosco</a></li>
+                                        Conosco</a></li> --}}
                                 {{-- <li class="nav-item"><a class="nav-link" href="https://raeasy.com/blog/">Blog</a></li> --}}
                                 <li class="nav-item"><a class="nav-link" href="{{ route('perfil') }}">Minha
                                         Conta</a></li>
-                                <li class="nav-item"><a class="nav-link" href="{{ route('favorites') }}">Linha de
-                                        Desejos</a></li>
+                                {{-- <li class="nav-item"><a class="nav-link" href="{{ route('favorites') }}">Linha de
+                                        Desejos</a></li> --}}
                             </ul>
                         </div>
 
                         <div class="col-12 col-md-4 mb-2 mb-md-0">
                             <h5>AJUDA E SUPORTE</h5>
 
-                            <ul class="nav flex-column">
+                            {{-- <ul class="nav flex-column">
                                 <li class="nav-item"><a class="nav-link" href="{{ route('termsofuse') }}">Termos de
                                         Uso</a></li>
                                 <li class="nav-item"><a class="nav-link" href="{{ route('faq') }}">Perguntas
@@ -548,7 +548,7 @@
                                         href="{{ route('exchangereturns') }}">Trocas e Devoluções</a></li>
                                 <li class="nav-item"><a class="nav-link"
                                         href="{{ route('privacypolicy') }}">Política de Privacidade</a></li>
-                            </ul>
+                            </ul> --}}
                         </div>
 
                         <div class="col-12 col-md-5  mb-4 mb-md-0">
@@ -588,7 +588,7 @@
     </form>
 
     {{-- Modal para realizar o consulta de cep --}}
-    <div class="position-fixed d-none" id="ModalCepSession">
+    {{-- <div class="position-fixed d-none" id="ModalCepSession">
         <div class="modal-dialog">
             <div class="modal-content">
                 <button type="button" class="close close-modal-cep m-1">
@@ -619,7 +619,7 @@
                 </form>
             </div>
         </div>
-    </div>
+    </div> --}}
 
     <div class="modal-cookie">
         <div class="body-cookie container">
