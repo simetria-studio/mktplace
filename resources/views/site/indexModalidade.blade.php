@@ -2,7 +2,7 @@
 
 @section('container')
     <div class="container-fluid index-modalidade">
-       <div class="container-fluid pt-3">
+        <div class="container-fluid pt-3">
             <div class="mb-5 mt-4">
                 <h3>Modalidade de entrega</h3>
             </div>
@@ -212,6 +212,16 @@
                                     
                                     $('#seller-'+i+' .body-modalidades').html(data.html[i]);
                                 }
+
+                                if($('[name="endereco"]').val() == 'new_address'){
+                                    $('[name="address"]').val(data.cep_consulta.logradouro);
+                                    $('[name="complement"]').val('');
+                                    $('[name="number"]').val('');
+                                    $('[name="address2"]').val(data.cep_consulta.bairro);
+                                    $('[name="state"]').val(data.cep_consulta.uf);
+                                    $('[name="city"]').val(data.cep_consulta.localidade);
+                                    $('[name="phone"]').val('');
+                                }
                                 // $('.div-modalidades').html(data.html);
                             }else{
                                 alert('CEP não encontrado');
@@ -416,11 +426,12 @@
                 var total_geral = parseFloat($('.div-total .subtotal').text().replace('Subtotal: R$ ','').replace('.','').replace(',','.')) + frete_total;
                 $('.div-total .total').text('R$ '+total_geral.toFixed(2).replace('.',','));
             }else{
-                // window.location.reload();
-                $('.div-total .desconto').text('Desconto: R$ '+parseFloat(coupon.dp).toFixed(2).replace('.',','));
+                if(coupon.dp  || null){
+                    $('.div-total .desconto').text('Desconto: R$ '+parseFloat(coupon.dp).toFixed(2).replace('.',','));
 
-                var total_geral = parseFloat($('.div-total .subtotal').text().replace('Subtotal: R$ ','').replace('.','').replace(',','.')) - coupon.dp;
-                $('.div-total .total').text('R$ '+total_geral.toFixed(2).replace('.',','));
+                    var total_geral = parseFloat($('.div-total .subtotal').text().replace('Subtotal: R$ ','').replace('.','').replace(',','.')) - coupon.dp;
+                    $('.div-total .total').text('R$ '+total_geral.toFixed(2).replace('.',','));
+                }
             }
         }
     </script>
