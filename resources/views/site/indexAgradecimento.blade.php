@@ -12,7 +12,7 @@
             </div>
 
             <div class="col-sm-3 col-md-4">
-                <img src="{{ asset('site/imgs/avatar-mulher.png')}}" alt="Mascote Raesy">
+                {{-- <img src="{{ asset('site/imgs/avatar-mulher.png')}}" alt="Mascote Raesy"> --}}
             </div>
             <div class="col-sm-9 col-md-8">
                 <div class="row">
@@ -52,8 +52,8 @@
 
                 <div class="row mt-5 mx-3">
                     <div class="col-12 d-flex">
-                        <p style="font-size: 1rem; font-weight: 800; margin-right: 10px;">Acompanhe as novidades da Biguaçu em nossas redes sociais</p>
-                        <a class="btn-social" href="https://www.instagram.com/raeasy_/" target="_blank"><i class="fab fa-instagram-square" style="color: #59981A; font-size: 2rem; margin-right: 10px;"></i></a>
+                        <p style="font-size: 1rem; font-weight: 800; margin-right: 10px;">Acompanhe as novidades da Vapu-vapu em nossas redes sociais</p>
+                        {{-- <a class="btn-social" href="https://www.instagram.com/raeasy_/" target="_blank"><i class="fab fa-instagram-square" style="color: #59981A; font-size: 2rem; margin-right: 10px;"></i></a> --}}
                     </div>
                 </div>
             </div>

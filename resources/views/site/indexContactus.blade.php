@@ -18,13 +18,13 @@
             </div>
             <p>
                 <strong>Whatsapp/Fone</strong><br>
-                <span>(47) 9 9600-3481</span><br>
-                <span>(47) 9 8847-6422</span>
+                <span>(00) 9 9999-9999</span><br>
+                <span>(00) 9 9999-9999</span>
             </p>
 
             <p>
                 <strong>E-mail</strong><br>
-                <span>contato@raeasy.com</span>
+                <span>contato@blucore.com.br</span>
             </p>
         </div>
 
