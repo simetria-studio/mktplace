@@ -478,10 +478,12 @@ class CheckoutController extends Controller
 
     public function clienteAsaas()
     {
+
+       
         $cliente = \Http::withHeaders([
             'access_token' => $this->access_token
         ])->get($this->url_asaas.'/customers?cpfCnpj='.auth('web')->user()->cnpj_cpf);
-
+        dd($cliente->object());
         if($cliente->object()->totalCount > 0){
             return $cliente->object()->data[0];
         }else{
