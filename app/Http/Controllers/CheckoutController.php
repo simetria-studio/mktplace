@@ -484,8 +484,6 @@ class CheckoutController extends Controller
             'access_token' => $this->access_token
         ])->get($this->url_asaas.'/customers?cpfCnpj='.auth('web')->user()->cnpj_cpf);
 
-        \Log::info(['cu' => $cliente]);
-
         // dd($cliente);
 
         if($cliente->object()->totalCount > 0){
