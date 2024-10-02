@@ -25,7 +25,7 @@ class Controller extends BaseController
         // } else {
             $this->url_asaas = 'https://sandbox.asaas.com/api/v3';
             $this->access_token = env('ASAAS_ACCESS');
-            $this->wallet_id = '9281f252-4c92-4fab-b560-65ef47059c31';
+            $this->wallet_id = env('ASAAS_WALLET_ID');
         // }
     }
 
